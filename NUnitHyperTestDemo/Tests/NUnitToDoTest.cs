@@ -24,8 +24,8 @@ namespace NUnitToDo
     [Category("ToDoTest")]
     public class NUnitSeleniumSample
     {
-        public static string LT_USERNAME = "gchawhan10";
-        public static string LT_ACCESS_KEY = "e0LlLtwPOwFxS1RcCyuenLu8vmO6Xpl3vO0Ppx4lNqiAuQBPYU";
+        public static string LT_USERNAME = "username";
+        public static string LT_ACCESS_KEY = "key";
         public static string gridURL = "@hub.lambdatest.com/wd/hub";
 
         ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>();
