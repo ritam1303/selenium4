@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/NUnitHyperTestDemo.csproj": {}
+  },
+  "projects": {
+    "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/NUnitHyperTestDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/NUnitHyperTestDemo.csproj",
+        "projectName": "NUnitHyperTestDemo",
+        "projectPath": "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/NUnitHyperTestDemo.csproj",
+        "packagesPath": "/Users/ritamg/.nuget/packages/",
+        "outputPath": "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/NuGet.Config",
+          "/Users/ritamg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp8.0"
+        ],
+        "sources": {
+          "/Users/ritamg/Downloads/dotnet_local/NUnitHyperTestDemo/LocalNuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "netcoreapp8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "netcoreapp8.0",
+          "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.2.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[3.141.0, )"
+            },
+            "Selenium.WebDriverBackedSelenium": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet@8/8.0.15/libexec/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
